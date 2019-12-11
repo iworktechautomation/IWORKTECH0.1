@@ -12,3 +12,9 @@ Feature: Member Registration
     Examples:
       | Email Id       | Password |
       | admin@demo.com | demo123  |
+
+  Scenario: Create the new Keyword in the admin section using the existing word
+    When user is on the site
+    And user loggs in into the admin portal using Email Id "<Email Id>" and Password "<Password>"
+    And proceeds to create the keyword using the existing word
+    Then record should be successfully created
