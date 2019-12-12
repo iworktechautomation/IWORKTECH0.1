@@ -155,6 +155,11 @@
                         <resource>
                             <directory>src/main/resources</directory>
                             <filtering>true</filtering>
+                            <excludes>
+                                <exclude>*.jks</exclude>
+                                <exclude>*.png</exclude>
+                                <exclude>*.jfif</exclude>
+                            </excludes>
                         </resource>
                     </resources>
 
