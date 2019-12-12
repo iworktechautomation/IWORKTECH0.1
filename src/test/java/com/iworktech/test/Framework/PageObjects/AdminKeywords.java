@@ -47,7 +47,7 @@ public class AdminKeywords extends CommonMethods {
             randomKeyword = RandomStringGenerators.getRandomText(10);
             System.out.println("The randomly generated string is..."+randomKeyword);
             textKeyWord.sendKeys(randomKeyword);
-            selectImage.sendKeys("D:\\Automation\\MELP\\MELP AUtomation\\src\\main\\resources\\Images\\fa18-1.jfif");
+            selectImage.sendKeys("D:\\Automation\\MELP\\MELP AUtomation\\src\\main\\resources\\Images\\fa18-1.png");
             clickElement(buttonSaveKeyWord);
         }
     }
