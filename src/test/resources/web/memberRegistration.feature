@@ -3,7 +3,6 @@ Feature: Member Registration
   I want to add a member
   Sp that the user should be successfully registered
 
-  @testlocal @failed
   Scenario: Register the user
     When user is on the site
     When user enters basic information

@@ -3,6 +3,7 @@ Feature: Member Registration
   I want to create Keyword
   So that the user can use it
 
+  @testlocal
   Scenario Outline: Create the new Keyword in the admin section
     When user is on the site
     And user loggs in into the admin portal using Email Id "<Email Id>" and Password "<Password>"
